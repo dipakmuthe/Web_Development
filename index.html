@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIPAK - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(2, 2, 56);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(30, 30, 104);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(238, 5, 234);
+        font-size: 1.03rem;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(204, 3, 200);
+        height: 1.2px;
+        margin: 20px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .section1 {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px 0;
+      }
+      .section1 > div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 2.8rem;
+      }
+      .leftsection .buttons{
+        padding: 33px 0;
+      }
+      .leftsection .btn{
+         padding: 8px;
+         background-color: rgb(6, 4, 102);
+         border: 1px solid white;
+         border-radius: 6px;
+         font-size: 15px;
+         color: white;
+         cursor: pointer;
+         
+      }
+      .rightsection img {
+        width: 60%;
+      }
+      .purple {
+        color: rgb(204, 3, 200);
+      }
+      .textgray {
+        color: gray;
+      }
+      #element {
+        color: rgb(199, 3, 196);
+      }
+      .section2 {
+        max-width: 88vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .section2 h1 {
+        font-size: 1.9rem;
+      }
+      .section2 .box {
+        background-color: white;
+        width: 88vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .section2 .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -35px;
+        left: -15px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 95px;
+        width: 23px;
+        left: -120px;
+      }
+      .vertical-desc {
+        color: gray;
+        position: relative;
+        top: 160px;
+        left: -140px;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(11, 2, 42);
+       
+      }
+      .footer {
+        display: flex;
+        padding: 23px 70px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">DIPAK Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="leftsection">
+          Hi, My name is
+
+          <span class="purple">DIPAK</span>
+          <div>and I am passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg3.png" alt="Devloper image" />
+        </div>
+      </section>
+      <hr />
+      <section class="section2">
+        <span class="textgray">Full Stack Web Developer(MERN Stack)</span>
+        <h1>Work Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="mongodb1.png" alt="" />
+          </div>
+          <div class="vertical-text">MongoDB Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="express.png" alt="" />
+          </div>
+          <div class="vertical-text">Express.js Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="react1.png" alt="" />
+          </div>
+          <div class="vertical-text">React.js Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="node.png" alt="" />
+          </div>
+          <div class="vertical-text">Node.js Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>DIPAK's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+         </div>
+         <div class="footer-rights">
+         Copyright &#169; dipakportfolio.com | All rights reserved
+       
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "UI/UX Developer",
+          "Video Editor",
+          "Web Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
