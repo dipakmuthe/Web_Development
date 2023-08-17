@@ -1,5 +1,5 @@
 # resume
-My First Web site From web development course
+Visit Web site (On Laptop)
 <br/>
 Visit My Portfolio Site <br>
 https://dipakmuthe.github.io/Web_Development/
